@@ -39,9 +39,9 @@ def load_local_csv(filename):
 
 datasets = {
     "history": load_local_csv("HISTORY.csv"),
-    "historycolored": load_local_csv("history_colored.csv"),
+    "historycolored": load_local_csv("historycolored.csv"),
     "nasa": load_local_csv("NASA.csv"),
-    "nasa2": load_local_csv("NASA_2.csv"),
+    "nasa2": load_local_csv("NASA2.csv"),
     "natgeo": load_local_csv("NATGEOTRAVEL.csv")
 }
 
